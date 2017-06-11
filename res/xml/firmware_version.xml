@@ -63,6 +63,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
 
+    <!-- Crooked Android Version -->
+    <Preference
+        android:key="crooked_version"
+        android:title="@string/crooked_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.ROMVersionPreferenceController"/>
+
     <!-- Build -->
     <Preference
         android:key="os_build_number"
