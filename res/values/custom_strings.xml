@@ -90,4 +90,8 @@
     <string name="system_black_theme_title">Use black theme</string>
     <string name="system_black_theme_summary">Force black background colors</string>
 
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+
 </resources>
