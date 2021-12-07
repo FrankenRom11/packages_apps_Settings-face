@@ -187,4 +187,9 @@
     <string name="pulse_vertical_mirror_title">Vertical Mirror</string>
     <string name="pulse_vertical_mirror_summary">Create other pulse and flip vertically</string>
     
+    <!-- Fullscreen gestures -->
+    <string name="navbar_category">Navigation bar</string>
+    <string name="fullscreen_gestures_title">Fullscreen gestures</string>
+    <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
+
 </resources>
