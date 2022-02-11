@@ -75,6 +75,7 @@ android_library {
         "lottie",
         "VendorSupport-preference",
         "columbus-settingsgoogle",
+        "faceunlock_framework",
     ],
 
     libs: [
