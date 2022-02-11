@@ -81,6 +81,7 @@ android_library {
         "android.frameworks.stats-V1-java",
         "google-fuelgauge",
         "google-securityhub",
+        "faceunlock_framework",
     ],
 
     libs: [
