@@ -68,7 +68,4 @@
 }
 
 # Custom rules
--keep class com.google.android.settings.** { *; }
-
-# Custom rules
 -keep class com.google.** { *; }
