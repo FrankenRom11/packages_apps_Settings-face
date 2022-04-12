@@ -119,6 +119,24 @@
             android:title="@string/advanced_settings" />
 
     </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="ambient_pulse_category"
+        android:title="@string/ambient_pulse_title">
+
+        <com.statix.support.preferences.SystemSettingSwitchPreference
+            android:key="ambient_wake_gestures"
+            android:title="@string/ambient_wake_gestures_title"
+            android:summary="@string/ambient_wake_gestures_summary"
+            android:defaultValue="false" />
+            
+        <com.statix.support.preferences.SystemSettingSwitchPreference
+            android:key="pulse_on_new_tracks"
+            android:title="@string/pulse_on_new_tracks_title"
+            android:summary="@string/pulse_on_new_tracks_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
 
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that
          any of the above settings (including dynamic) are specific to the work profile. -->
