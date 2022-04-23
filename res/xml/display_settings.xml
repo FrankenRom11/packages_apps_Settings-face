@@ -140,6 +140,12 @@
             android:key="show_operator_name"
             android:title="@string/show_operator_name_title"
             android:summary="@string/show_operator_name_summary"/>
+            
+        <com.statix.support.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/double_tap_to_sleep_title"
+            android:summary="@string/double_tap_to_sleep_summary"
+            android:defaultValue="true" />
 
         <SwitchPreference
             android:key="camera_gesture"

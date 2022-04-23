@@ -54,4 +54,33 @@
     <!-- Ambient music ticker -->
     <string name="pulse_on_new_tracks_title">Music ticker</string>
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+    
+    <!-- Double tap lock screen to sleep -->
+    <string name="dt2s_lockscreen_title">DT2S on lock screen</string>
+    <string name="dt2s_lockscreen_summary">Double-tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
+    
+    <!-- Double tap status bar to sleep -->
+    <string name="double_tap_to_sleep_title">Tap on status bar</string>
+    <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
+    
+    <!-- Media notification artwork -->
+    <string name="media_category">Media notification</string>
+    <string name="artwork_media_background_title">Artwork media background</string>
+    <string name="artwork_media_background_summary">Set media artwork as the notification media background</string>
+    <string name="artwork_media_background_enable_blur_title">Blur media media artwork background</string>
+    <string name="artwork_media_background_blur_radius_title">Blur amount for media artwork</string>
+    <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
+    
+    <!-- Media art -->
+    <string name="lockscreen_media_art_options_title">Lock screen media art</string>
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Display media cover art when available</string>
+    <string name="lockscreen_albumart_filter_title">Media cover art filter</string>
+    <string name="none_string">None</string>
+    <string name="lockscreen_albumart_filter_grayscale">Grayscale</string>
+    <string name="lockscreen_albumart_filter_tint">Accent tinted</string>
+    <string name="lockscreen_albumart_filter_blur">Blur</string>
+    <string name="lockscreen_albumart_filter_grayblur">Grayscale and blurred</string>
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
+
 </resources>
