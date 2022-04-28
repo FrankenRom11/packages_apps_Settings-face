@@ -33,7 +33,7 @@ import com.android.settings.slices.Sliceable;
 public class StatixVersionPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "statixVersionDialogCtrl";
-    private static final String KEY_STATIX_VERSION_PROP = "ro.statix.version";
+    private static final String KEY_STATIX_VERSION_PROP = "ro.crooked.version";
 
     private final PackageManager mPackageManager;
 
