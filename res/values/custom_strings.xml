@@ -14,7 +14,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Crooked Android version -->
-    <string name="statix_version">Crooked Android version</string>
+    <string name="statix_version">Crooked version</string>
     <string name="statix_version_default">Unknown</string>
     <string name="statix_uri" translatable="false">https://github.com/CrookedAndroid</string>
 
