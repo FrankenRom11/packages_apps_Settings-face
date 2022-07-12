@@ -93,5 +93,9 @@
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Icon manager</string>
     <string name="icon_manager_summary">Control visibility of status bar icons</string>
+    
+    <!-- Qs Transparency -->
+    <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI Restart)</string>
+    <string name="qs_transparency_title">Qs Transparency</string>
 
 </resources>
