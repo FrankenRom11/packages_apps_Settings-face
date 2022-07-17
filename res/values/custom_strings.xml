@@ -97,5 +97,13 @@
     <!-- Qs Transparency -->
     <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI Restart)</string>
     <string name="qs_transparency_title">Qs Transparency</string>
+    
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Enable battery charge level warning</string>
+    <string name="notification_battery_charge_level_title">Battery charge warning</string>
+    <string name="notification_battery_charge_level_summary">Play a sound when the battery has reached a level of choice when charging</string>
+    <string name="notification_battery_charge_level_seek_bar">Battery level</string>
+    <string name="notification_battery_charge_level_ringtone">Ringtone</string>
+    <string name="notification_battery_charge_level_silent">Silent</string>
 
 </resources>
