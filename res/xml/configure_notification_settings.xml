@@ -179,6 +179,12 @@
              android:order="19"
              android:title="@string/silent_notifications_status_bar"
              settings:controller="com.android.settings.notification.SilentStatusBarPreferenceController"/>
+             
+        <com.statix.support.preferences.SystemSettingSwitchPreference
+             android:key="statusbar_colored_icons"
+             android:title="@string/statusbar_colored_icons_title"
+             android:summary="@string/statusbar_colored_icons_summary"
+             android:defaultValue="false" />
 
         <SwitchPreference
             android:key="show_snooze_options"
