@@ -102,6 +102,11 @@
             android:summary="@string/icon_manager_summary">
             <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
         </Preference>
+        
+       <Preference
+           android:key="traffic"
+           android:fragment="com.android.settings.corvus.fragments.Traffic"
+           android:title="@string/traffic_title" />
     </PreferenceCategory>
 
     <PreferenceCategory
