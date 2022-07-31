@@ -39,6 +39,12 @@
         android:title="@string/wifi_cellular_data_fallback_title"
         android:summary="@string/wifi_cellular_data_fallback_summary"
         settings:controller="com.android.settings.wifi.CellularFallbackPreferenceController" />
+        
+    <com.statix.support.preferences.SecureSettingSwitchPreference
+             android:key="show_wifi_standard_icon"
+             android:title="@string/show_wifi_standard_icon_title"
+             android:summary="@string/show_wifi_standard_icon_summary"
+             android:defaultValue="false" />
 
     <Preference
         android:key="install_credentials"
