@@ -48,7 +48,6 @@
         android:summary="@string/advanced_battery_preference_summary"
         settings:searchable="false" />
 
-    <Preference
     <com.statix.support.preferences.SystemSettingSwitchPreference
         android:key="battery_24_hrs_stats"
         android:title="@string/advanced_battery_preference_summary_with_hours"
