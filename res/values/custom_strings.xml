@@ -35,4 +35,9 @@
     <string name="package_version">Package version</string>
     <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
 
+
+    <!-- Themes -->
+    <string name="theme_settings_title">Themes</string>
+    <string name="theme_settings_summary">Get Crooked!</string>
+
 </resources>
