@@ -73,6 +73,12 @@
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.TapScreenGesturePreferenceController" />
 
+    <com.statix.support.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+        android:title="@string/dt2s_statusbar_title"
+        android:summary="@string/dt2s_statusbar_summary"
+        android:defaultValue="true" />
+
     <Preference
         android:key="gesture_double_tap_screen_input_summary"
         android:title="@string/ambient_display_title"
