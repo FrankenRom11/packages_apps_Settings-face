@@ -91,5 +91,12 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+ 
+    <!-- Statusbar customisation -->
+    <string name="statusbar_category">Statusbar</string>
+    <string name="statusbar_title">Statusbar customisation</string>
+    <string name="statusbar_summary">Change your statusbar settings</string>
+    <string name="statusbar_customisation_icons_category">Icons</string>
+    <string name="statusbar_customisation_gestures_category">Gestures</string>
 
 </resources>
