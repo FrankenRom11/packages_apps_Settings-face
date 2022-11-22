@@ -52,4 +52,10 @@
         android:title="@string/power_menu_power_volume_up_hint"
         android:selectable="false"
         settings:searchable="false"/>
+        
+    <com.statix.support.preferences.SystemSettingSwitchPreference
+        android:key="click_partial_screenshot"
+        android:title="@string/click_partial_screenshot_title"
+        android:summary="@string/click_partial_screenshot_summary"
+        android:defaultValue="false" />
 </PreferenceScreen>
