@@ -99,9 +99,6 @@
     <string name="statusbar_customisation_icons_category">Icons</string>
     <string name="statusbar_customisation_gestures_category">Gestures</string>
 
-   <!-- Face Unlock -->
-   <string name="security_settings_face_enroll_finish_description">Now you can use your face to unlock your phone or verify it’s you, like when you sign in to apps or approve a purchase</string>
-
    <!-- Units -->
    <string name="unit_milliseconds">milliseconds</string>
    <string name="unit_percent" translatable="false">\u0025</string>
@@ -166,6 +163,5 @@
    <!-- Partial Screenshot -->
    <string name="click_partial_screenshot_title">Partial Screenshot</string>
    <string name="click_partial_screenshot_summary">Switch on to use keypress for a partial screenshot</string>
-
 
 </resources>
