@@ -128,4 +128,13 @@
     <string name="doze_on_charge_title">Always on when charging</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
     
+    <!-- Network traffic -->
+    <string name="traffic_title">Traffic Indicators</string>
+    <string name="network_traffic_title">Network traffic indicator</string>
+    <string name="network_traffic_summary">Enable or disable network speed indicator in status bar</string>
+    <string name="network_traffic_state_title">Enable "Network traffic indicator"</string>
+    <string name="network_options_title">Options</string>
+    <string name="network_traffic_autohide_title">Hide network traffic indicator when inactive</string>
+    <string name="network_traffic_autohide_summary">Hide when the network traffic is below 1 KB/s</string>
+    
 </resources>
