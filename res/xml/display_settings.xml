@@ -82,6 +82,11 @@
             android:title="@string/statusbar_title"
             android:summary="@string/statusbar_summary"
             android:fragment="com.android.settings.display.StatusBarSettings" />
+            
+        <Preference
+            android:key="traffic"
+            android:fragment="com.android.settings.crooked.fragments.NetworkTrafficSettings"
+            android:title="@string/traffic_title" />
 
         <Preference
             android:fragment="com.android.settings.accessibility.TextReadingPreferenceFragment"
