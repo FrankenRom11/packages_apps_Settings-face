@@ -69,6 +69,15 @@
             settings:widgetLayout="@null"
             settings:controller="com.android.settings.display.DarkUIPreferenceController"
             settings:keywords="@string/keywords_dark_ui_mode"/>
+            
+        <com.statix.support.preferences.CustomSystemSeekBarPreference
+            android:key="qs_transparency"
+            android:title="@string/qs_transparency_title"
+            android:summary="@string/qs_transparency_summary"
+            android:defaultValue="10"
+            settings:interval="1"
+            android:max="10"         
+            android:min="1" />
 
         <Preference
             android:fragment="com.android.settings.accessibility.TextReadingPreferenceFragment"
