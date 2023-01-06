@@ -76,7 +76,7 @@
             android:summary="@string/qs_transparency_summary"
             android:defaultValue="10"
             settings:interval="1"
-            android:max="10"         
+            android:max="100"         
             android:min="1" />
 
         <Preference
