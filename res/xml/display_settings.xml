@@ -35,6 +35,19 @@
             settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
     </PreferenceCategory>
     
+    <com.statix.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_text_show"
+            android:title="@string/qs_footer_text_show_title"
+            android:summary="@string/qs_footer_text_show_summary"
+            android:defaultValue="false" />
+
+    <com.statix.support.preferences.SystemSettingEditTextPreference
+            android:key="qs_footer_text_string"
+            android:title="@string/qs_footer_text_string_title"
+            android:summary="@string/qs_footer_text_string_summary"
+            android:dependency="qs_footer_text_show"
+            settings:controller="com.android.settings.display.QSFooterTextPreferenceController" />
+    
     <PreferenceCategory
         android:title="@string/qs_layout_category_title">
 
