@@ -56,5 +56,11 @@
     <!-- Double tap lock screen to sleep -->
     <string name="dt2s_lockscreen_title">Tap on lock screen</string>
     <string name="dt2s_lockscreen_summary">Double tap on lock screen to put the device to sleep</string>
+
+    <!-- QS footer text -->
+    <string name="qs_footer_text_show_title">Show QS footer text</string>
+    <string name="qs_footer_text_show_summary">Display text at bottom of QS panel</string>
+    <string name="qs_footer_text_string_title">Customize footer text</string>
+    <string name="qs_footer_text_string_summary">Set to empty for default \"Crooked\"</string>
     
 </resources>
