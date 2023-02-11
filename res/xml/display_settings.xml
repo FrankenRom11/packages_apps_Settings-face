@@ -35,52 +35,6 @@
             settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
     </PreferenceCategory>
     
-    <com.statix.support.preferences.SystemSettingSwitchPreference
-            android:key="qs_footer_text_show"
-            android:title="@string/qs_footer_text_show_title"
-            android:summary="@string/qs_footer_text_show_summary"
-            android:defaultValue="false" />
-
-    <com.statix.support.preferences.SystemSettingEditTextPreference
-            android:key="qs_footer_text_string"
-            android:title="@string/qs_footer_text_string_title"
-            android:summary="@string/qs_footer_text_string_summary"
-            android:dependency="qs_footer_text_show"
-            settings:controller="com.android.settings.display.QSFooterTextPreferenceController" />
-    
-    <PreferenceCategory
-        android:title="@string/qs_layout_category_title">
-
-        <com.statix.support.preferences.SystemSettingSwitchPreference
-            android:key="qs_tile_label_hide"
-            android:title="@string/qs_tile_label_hide_title"
-            android:summary="@string/qs_tile_label_hide_summary"
-            android:defaultValue="false" />
-
-        <com.statix.support.preferences.SystemSettingSwitchPreference
-            android:key="qs_tile_vertical_layout"
-            android:title="@string/qs_tile_layout_title"
-            android:summary="@string/qs_tile_layout_summary"
-            android:defaultValue="false" />
-
-        <com.statix.support.preferences.CustomSystemSeekBarPreference
-            android:key="qs_layout_columns"
-            android:title="@string/qs_columns_portrait_title"
-            android:max="5"
-            settings:min="2"
-            settings:interval="1"
-            android:defaultValue="2" />
-
-        <com.statix.support.preferences.CustomSystemSeekBarPreference
-            android:key="qs_layout_columns_landscape"
-            android:title="@string/qs_columns_landscape_title"
-            android:max="6"
-            settings:min="2"
-            settings:interval="1"
-            android:defaultValue="4" />
-
-    </PreferenceCategory>
-
     <PreferenceCategory
         android:title="@string/category_name_lock_display">
 
@@ -111,20 +65,17 @@
             settings:controller="com.android.settings.display.DarkUIPreferenceController"
             settings:keywords="@string/keywords_dark_ui_mode"/>
             
-        <com.statix.support.preferences.CustomSystemSeekBarPreference
-            android:key="qs_transparency"
-            android:title="@string/qs_transparency_title"
-            android:summary="@string/qs_transparency_summary"
-            android:defaultValue="10"
-            settings:interval="1"
-            android:max="100"         
-            android:min="1" />
-
         <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:summary="@string/statusbar_summary"
             android:fragment="com.android.settings.display.StatusBarSettings" />
+
+        <Preference
+            android:key="quicksettings_category"
+            android:title="@string/quicksettings_title"
+            android:summary="@string/quicksettings_summary"
+            android:fragment="com.android.settings.display.QuickSettingsSettings" />
 
     </PreferenceCategory>
 

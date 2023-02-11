@@ -62,9 +62,9 @@
     <string name="power_button_torch_title">Quick torch</string>
     <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
  
-    <!-- Statusbar customisation -->
+    <!-- Statusbar customization -->
     <string name="statusbar_category">Statusbar</string>
-    <string name="statusbar_title">Statusbar customisation</string>
+    <string name="statusbar_title">Statusbar customization</string>
     <string name="statusbar_summary">Change your statusbar settings</string>
     <string name="statusbar_customisation_icons_category">Icons</string>
     <string name="statusbar_customisation_gestures_category">Gestures</string>
@@ -111,5 +111,12 @@
     <string name="qs_footer_text_show_summary">Display text at bottom of QS panel</string>
     <string name="qs_footer_text_string_title">Customize footer text</string>
     <string name="qs_footer_text_string_summary">Set to empty for default \"Crooked\"</string>
+
+    <!-- QuickSettingsSettings -->
+    <string name="quicksettings_category">QuickSettings</string>
+    <string name="quicksettings_title">QuickSettings customization</string>
+    <string name="quicksettings_summary">Change your quicksettings</string>
+    <string name="qs_footer_category_title">QuickSettings footer</string>
+    <string name="qs_transparancy_category_title">Transparancy</string>
     
 </resources>
