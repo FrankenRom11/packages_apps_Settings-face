@@ -181,4 +181,8 @@
     <string name="pulse_vertical_mirror_title">Vertical Mirror</string>
     <string name="pulse_vertical_mirror_summary">Create other pulse and flip vertically</string>
 
+    <!-- Themes -->
+    <string name="theme_settings_title">Wallpaper and Style</string>
+    <string name="theme_settings_summary">Change your wallpaper, Icons and Font settings</string>
+
 </resources>

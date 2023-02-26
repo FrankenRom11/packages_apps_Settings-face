@@ -66,6 +66,15 @@
             settings:keywords="@string/keywords_dark_ui_mode"/>
             
         <Preference
+            android:key="themes"
+            android:title="@string/theme_settings_title"
+            android:summary="@string/theme_settings_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.wallpaper"
+                android:targetClass="com.android.customization.picker.CustomizationPickerActivity" />
+        </Preference>
+
+        <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:summary="@string/statusbar_summary"

@@ -97,6 +97,7 @@
         settings:highlightableMenuKey="@string/menu_key_display"
         settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
 
+<!--
     <com.android.settings.widget.RestrictedHomepagePreference
         android:icon="@drawable/ic_settings_wallpaper_white"
         android:key="top_level_wallpaper"
@@ -105,6 +106,7 @@
         android:summary="@string/wallpaper_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_wallpaper"
         settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
+-->
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.accessibility.AccessibilitySettings"
