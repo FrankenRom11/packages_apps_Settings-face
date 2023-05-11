@@ -41,4 +41,8 @@
     <string name="system_black_theme_title">Use Black theme</string>
     <string name="system_black_theme_summary">Force black background colors</string>
     
+    <!-- Status bar colored icons -->
+    <string name="status_bar_colored_icons_title">Colored icons</string>
+    <string name="status_bar_colored_icons_summary">Use app\'s icon for notification icons in status bar</string>
+    
 </resources>
