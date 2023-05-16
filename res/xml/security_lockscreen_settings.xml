@@ -44,6 +44,12 @@
             android:key="owner_info_settings"
             android:title="@string/owner_info_settings_title"
             android:summary="@string/owner_info_settings_summary" />
+            
+        <com.statix.support.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_lockscreen"
+            android:title="@string/dt2s_lockscreen_title"
+            android:summary="@string/dt2s_lockscreen_summary"
+            android:defaultValue="true" />
 
         <SwitchPreference
             android:key="lockscreen_privacy_wallet_switch"

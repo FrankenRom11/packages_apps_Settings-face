@@ -74,6 +74,12 @@
             android:persistent="false"
             android:title="@string/accessibility_text_reading_options_title"
             settings:controller="com.android.settings.accessibility.TextReadingFragmentForDisplaySettingsController"/>
+            
+        <com.statix.support.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/dt2s_statusbar_title"
+            android:summary="@string/dt2s_statusbar_summary"
+            android:defaultValue="true" />
 
         <Preference
             android:key="icon_manager"
@@ -87,6 +93,75 @@
             android:title="@string/status_bar_colored_icons_title"
             android:summary="@string/status_bar_colored_icons_summary"
             android:defaultValue="false" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="@string/qs_layout_category_title">
+
+        <com.statix.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_label_hide"
+            android:title="@string/qs_tile_label_hide_title"
+            android:summary="@string/qs_tile_label_hide_summary"
+            android:defaultValue="false" />
+
+        <com.statix.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_vertical_layout"
+            android:title="@string/qs_tile_layout_title"
+            android:summary="@string/qs_tile_layout_summary"
+            android:defaultValue="false" />
+
+        <com.statix.support.preferences.CustomSystemSeekBarPreference
+            android:key="qs_layout_columns"
+            android:title="@string/qs_columns_portrait_title"
+            android:max="5"
+            settings:min="2"
+            settings:interval="1"
+            android:defaultValue="2" />
+
+        <com.statix.support.preferences.CustomSystemSeekBarPreference
+            android:key="qs_layout_columns_landscape"
+            android:title="@string/qs_columns_landscape_title"
+            android:max="6"
+            settings:min="2"
+            settings:interval="1"
+            android:defaultValue="4" />
+            
+        <com.statix.support.preferences.CustomSystemSeekBarPreference
+            android:key="qs_transparency"
+            android:title="@string/qs_transparency_title"
+            android:summary="@string/qs_transparency_summary"
+            android:defaultValue="100"
+            settings:interval="1"
+            settings:units="%"
+            android:max="100"
+            android:min="1" />
+
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="quick_settings_brighness_category"
+        android:title="@string/qs_show_brightness_slider_title">
+
+        <com.statix.support.preferences.SecureSettingListPreference
+            android:key="qs_show_brightness_slider"
+            android:title="@string/qs_show_brightness_slider_title"
+            android:entries="@array/qs_show_brightness_slider_entries"
+            android:entryValues="@array/qs_show_brightness_slider_values"
+            android:defaultValue="1" />
+
+        <com.statix.support.preferences.SecureSettingListPreference
+            android:key="qs_brightness_slider_position"
+            android:title="@string/qs_brightness_slider_position_title"
+            android:entries="@array/qs_brightness_slider_position_entries"
+            android:entryValues="@array/qs_brightness_slider_position_values"
+            android:defaultValue="0" />
+
+        <com.statix.support.preferences.SecureSettingSwitchPreference
+            android:key="qs_show_auto_brightness"
+            android:title="@string/qs_show_auto_brightness_title"
+            android:summary="@string/qs_show_auto_brightness_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

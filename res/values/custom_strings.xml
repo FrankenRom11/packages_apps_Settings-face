@@ -38,4 +38,62 @@
     <string name="status_bar_colored_icons_title">Colored icons</string>
     <string name="status_bar_colored_icons_summary">Use app\'s icon for notification icons in status bar</string>
     
+    <!-- QS tiles layout -->
+    <string name="qs_layout_category_title">Tiles layout</string>
+    <string name="qs_tile_label_hide_title">Hide label</string>
+    <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
+    <string name="qs_tile_layout_title">Vertical layout</string>
+    <string name="qs_tile_layout_summary">Show label below icon instead next to icon</string>
+    <string name="qs_columns_portrait_title">Columns (portrait)</string>
+    <string name="qs_columns_landscape_title">Columns (landscape)</string>
+    
+     <!-- Battery percentage -->
+    <string name="battery_style_category_title">Battery Styles</string>
+    <string name="battery_style_category_summary">Select battery icon styles</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+
+    <!-- Status bar battery style-->
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_port">Portrait</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Dotted сircle</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    
+    <!-- Double tap status bar to sleep -->
+    <string name="dt2s_statusbar_title">Tap on status bar</string>
+    <string name="dt2s_statusbar_summary">Double tap the status bar to put the device to sleep</string>
+
+    <!-- Double tap lock screen to sleep -->
+    <string name="dt2s_lockscreen_title">Tap on lock screen</string>
+    <string name="dt2s_lockscreen_summary">Double tap on lock screen to put the device to sleep</string>
+    
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">Brightness slider</string>
+    <string name="qs_show_brightness_slider_never">Never show</string>
+    <string name="qs_show_brightness_slider_expanded">Show when expanded</string>
+    <string name="qs_show_brightness_slider_always">Show always</string>
+    <string name="qs_show_brightness_slider_not_expanded">Show when not expanded</string>
+    <string name="qs_brightness_slider_position_title">Position</string>
+    <string name="qs_brightness_slider_position_top">Top</string>
+    <string name="qs_brightness_slider_position_bottom">Bottom</string>
+
+    <!-- Quick Settings brightness icon -->
+    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
+    <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
+    
+    <!-- Qs Transparency -->
+    <string name="qs_transparency_summary">Choose how transparent you want your qs to be</string>
+    <string name="qs_transparency_title">Qs Transparency</string>
+    
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    
 </resources>
