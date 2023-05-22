@@ -148,6 +148,11 @@
             android:summary="@string/qs_footer_text_string_summary"
             android:dependency="qs_footer_text_show"
             settings:controller="com.android.settings.display.QSFooterTextPreferenceController" />
+            
+         <Preference
+            android:key="themes"
+            android:title="@string/themes_title"
+            android:fragment="com.android.settings.display.ThemesSettings" />
 
     </PreferenceCategory>
     
