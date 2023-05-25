@@ -186,5 +186,5 @@
     <string name="visualizer_center_mirrored_summary">Set the visualizer in center mirrored mode</string>
     <string name="pulse_vertical_mirror_title">Vertical Mirror</string>
     <string name="pulse_vertical_mirror_summary">Create other pulse and flip vertically</string>
-
+    
 </resources>
