@@ -191,5 +191,9 @@
     <string name="navbar_category">Navigation bar</string>
     <string name="fullscreen_gestures_title">Fullscreen gestures</string>
     <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
+    
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Kill background processes</string>
+    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
 
 </resources>

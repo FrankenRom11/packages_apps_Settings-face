@@ -90,6 +90,7 @@ android_library {
         "Settings-change-ids",
         "SystemUIUnfoldLib",
         "VendorSupportLib",
+        "SettingsGoogle-lib",
     ],
 
     libs: [
