@@ -202,5 +202,18 @@
     <string name="color_mode_balance_green">Green strength</string>
     <string name="color_mode_balance_blue">Blue strength</string>
     <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    
+    <!-- Lock screen media artwork -->
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Display media cover art when available</string>
+    <string name="lockscreen_media_art_options_title">Lockscreen media art</string>
+    <string name="lockscreen_albumart_filter_title">Media cover art filter</string>
+    <string name="lockscreen_albumart_filter_grayscale">Grayscale</string>
+    <string name="lockscreen_albumart_filter_tint">Accent tinted</string>
+    <string name="lockscreen_albumart_filter_blur">Blur</string>
+    <string name="lockscreen_albumart_filter_grayblur">Grayscale and blurred</string>
+    <string name="lockscreen_albumart_filter_blur_radius_title">Blur amount for lock screen media artwork</string>
+    <string name="ls_media_artwork_fade_percent_title">Lockscreen album art fade level</string>
+    <string name="none_string">None</string>
 
 </resources>
