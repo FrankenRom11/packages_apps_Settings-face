@@ -100,5 +100,9 @@
     <string name="navbar_category">Navigation bar</string>
     <string name="fullscreen_gestures_title">Fullscreen gestures</string>
     <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
+    
+    <!-- Partial Screenshot -->
+   <string name="click_partial_screenshot_title">Partial Screenshot</string>
+   <string name="click_partial_screenshot_summary">Switch on to use keypress for a partial screenshot</string>
 
 </resources>
