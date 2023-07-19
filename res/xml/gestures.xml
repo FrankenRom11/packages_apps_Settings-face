@@ -39,6 +39,12 @@
         android:fragment="com.android.settings.gestures.PowerButtonTorchSettings"
         settings:controller="com.android.settings.gestures.PowerButtonTorchGesturePreferenceController" />
         
+    <com.statix.support.preferences.SystemSettingSwitchPreference
+        android:key="volbtn_music_controls"
+        android:title="@string/volume_button_music_control_title"
+        android:summary="@string/volume_button_music_control_summary"
+        android:defaultValue="false" />
+        
     <Preference
         android:key="swipe_to_screenshot_summary"
         android:title="@string/swipe_to_screenshot_title"

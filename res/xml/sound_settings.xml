@@ -135,8 +135,7 @@
         android:order="-100"
         settings:controller="com.android.settings.sound.MediaControlsParentPreferenceController"
         settings:keywords="@string/keywords_media_controls"/>
-
-    <!-- Also vibration -->
+        
     <Preference
         android:fragment="com.android.settings.accessibility.VibrationSettings"
         android:key="vibration_and_haptics"
