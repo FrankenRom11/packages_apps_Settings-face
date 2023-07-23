@@ -39,14 +39,14 @@ public class DozeOnChargePreferenceController extends TogglePreferenceController
 
     @Override
     public boolean isChecked() {
-        return Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.DOZE_ON_CHARGE, 0) == 1;
+        return Settings.Secure.getInt(mContext.getContentResolver(),
+                Settings.Secure.DOZE_ON_CHARGE, 0) == 1;
     }
 
     @Override
     public boolean setChecked(boolean isChecked) {
-        Settings.System.putInt(mContext.getContentResolver(),
-                Settings.System.DOZE_ON_CHARGE, isChecked ? 1 : 0);
+        Settings.Secure.putInt(mContext.getContentResolver(),
+                Settings.Secure.DOZE_ON_CHARGE, isChecked ? 1 : 0);
         return true;
     }
 
