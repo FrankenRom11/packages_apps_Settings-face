@@ -64,7 +64,6 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
-        "Settings/res",
         "SettingsGoogle/res",
     ],
     static_libs: [
